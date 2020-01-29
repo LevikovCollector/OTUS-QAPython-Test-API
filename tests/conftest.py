@@ -2,17 +2,17 @@ import pytest
 
 
 @pytest.fixture
-def fix_get_dog_host():
+def dog_host():
     return 'https://dog.ceo/api/'
 
 
 @pytest.fixture
-def fix_get_openbrewerydb_host():
+def openbrewerydb_host():
     return 'https://api.openbrewerydb.org/'
 
 
 @pytest.fixture
-def fix_get_jsonplaceholder_host():
+def jsonplaceholder_host():
     return 'https://jsonplaceholder.typicode.com/'
 
 
